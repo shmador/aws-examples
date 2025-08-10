@@ -1,0 +1,5 @@
+aws sns publish \
+  --region eu-central-1 \
+  --topic-arn arn:aws:sns:eu-central-1:423408880404:snstest-MySNSTopic-uT8Xk4Tz8QuQ \
+  --message file://message.txt
+

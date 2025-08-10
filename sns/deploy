@@ -1,0 +1,2 @@
+sam deploy --template-file "./template.yaml" --stack-name "snstest" --capabilities "CAPABILITY_IAM"
+
